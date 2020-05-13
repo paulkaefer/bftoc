@@ -44,14 +44,14 @@ for char in raw_bf_string:
 
 size = max(possize, negsize)
 
-print "Negsize: "+repr(negsize)
-print "Possize: "+repr(possize)
-print "size:    "+repr(size)
+print("Negsize: "+repr(negsize))
+print("Possize: "+repr(possize))
+print("size:    "+repr(size))
 
 size = 1000
 
 if (negsize > possize):
-    print "We will have to go negative"
+    print("We will have to go negative")
 
 #print bf_string
 
@@ -229,7 +229,7 @@ for char in bf_string:
         printspaces(tabwidth)
         c_file.write("}\n")
     else:
-        print "Unidentified character: "+char
+        print("Unidentified character: "+char)
 
 c_file.write("\n}\n\n")
 
